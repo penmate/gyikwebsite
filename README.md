@@ -18,7 +18,7 @@ Készíts  egy  GYIK  (gyakran ismételt  kérdések, FAQ)  weboldalt kiszolgál
 
 **A  megvalósításhoz TypeScript nyelvet és NestJS keretrendszert  használj.  Az  elkészült  projektet  a GitHub-ra töltsd fel és a repository linkjét küldd el számunkra.**
   
-Tasks:
+**Tasks:**
   
 Az API az alábbi funkcionalitással rendelkezzen:
   - Az APIútvonalakJSONformában kommunikáljanaka felhasználóval.
@@ -26,7 +26,7 @@ Az API az alábbi funkcionalitással rendelkezzen:
   - A    kérdéseket kategóriákba lehessen rendezni (ehhez kapcsolótábla szükséges)ésfelhasználóhoz kötve tároljuk őket.
   - A  kérdésekhez a felhasználók válaszokat adhatnak hozzá, aválaszokra  más felhasználók pozitív/negatív módon reagálhatnak, ezeknek a számát a válasznál tárolni kell.
   
-Optional:
+**Optional:**
   
 - JWT bejelentkezés és a kérések előtt a token ellenőrzése(ehhez a felhasználóhoz jelszót is szükséges tárolni valamilyen módon)
 - OpenAPI(Swagger) dokumentáció generálása
@@ -56,7 +56,7 @@ $ npm run start:prod
   
 **Api desing platform:** Insomnia
   
-**Database:** postgreSQL - Install & run docker desktop first.
+**Database:** postgreSQL - `Install & run docker desktop first.`
 ```bash
 # starting docker image
 $ docker compose up dev-db -d
