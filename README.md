@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -12,10 +12,26 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Project description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Készíts  egy  GYIK  (gyakran ismételt  kérdések, FAQ)  weboldalt kiszolgáló  Restful  API-t -mint  amilyen például  a gyakorikerdesek.hu vagy  a stackoverflow.com. Az  alkalmazással  kategóriákba  rendezett kérdéseket lehet feltenni, amiket más felhasználók megválaszolhatnak, illetve a válaszokra reagálhatnak pozitív vagy negatív reakcióval.
 
+**A  megvalósításhoz TypeScript nyelvet és NestJS keretrendszert  használj.  Az  elkészült  projektet  a GitHub-ra töltsd fel és a repository linkjét küldd el számunkra.**
+  
+Tasks:
+  
+Az API az alábbi funkcionalitással rendelkezzen:
+  - Az APIútvonalakJSONformában kommunikáljanaka felhasználóval.
+  - Az  alkalmazás  tároljon  felhasználókat  (a  felhasználók bejelentkeztetése vagy jogosultságuk ellenőrzése opcionális).
+  - A    kérdéseket kategóriákba lehessen rendezni (ehhez kapcsolótábla szükséges)ésfelhasználóhoz kötve tároljuk őket.
+  - A  kérdésekhez a felhasználók válaszokat adhatnak hozzá, aválaszokra  más felhasználók pozitív/negatív módon reagálhatnak, ezeknek a számát a válasznál tárolni kell.
+  
+Optional:
+  
+- JWT bejelentkezés és a kérések előtt a token ellenőrzése(ehhez a felhasználóhoz jelszót is szükséges tárolni valamilyen módon)
+- OpenAPI(Swagger) dokumentáció generálása
+- Unit és/vagy funkcionális tesztek írása
+  
 ## Installation
 
 ```bash
@@ -34,10 +50,6 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## License
-
-Nest is [MIT licensed](LICENSE).
   
   
 ## Other
@@ -61,4 +73,9 @@ $ npx prisma studio
 # running migration if needed
 $ npx prisma migrate dev  
 ```
+  
+ 
+## License
+
+Nest is [MIT licensed](LICENSE).
 
