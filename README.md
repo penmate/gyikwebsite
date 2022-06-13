@@ -42,13 +42,23 @@ Nest is [MIT licensed](LICENSE).
   
 ## Other
   
-Database: postgreSQL
+**Api desing platform:** Insomnia
+  
+**Database:** postgreSQL - Install & run docker desktop first.
 ```bash
+# starting docker image
 $ docker compose up dev-db -d
+  
+# checking docker image
+$ docker ps
 ```
-ORM: prisma
+  
+**ORM: prisma**
 ```bash
-$ npx prisma studio       // for starting prisma
-$ npx prisma migrate dev  // for running migration
+# starting prisma
+$ npx prisma studio
+  
+# running migration if needed
+$ npx prisma migrate dev  
 ```
 
