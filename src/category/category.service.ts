@@ -10,7 +10,7 @@ export class CategoryService {
     return this.prisma.category.findMany();
   }
 
-  getCategoriesWithQuestions() {//TODO
+  getCategoriesWithQuestions() {
     return this.prisma.category.findMany({
       include: {
         questions: true,
